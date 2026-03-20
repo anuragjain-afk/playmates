@@ -35,19 +35,19 @@
 <br/>
 
 <div align="center">
-
+ 
 ## 🎯 What is Playmates?
-
+ 
 </div>
-
+ 
 > **The problem:** Every multiplayer game wants you to download something, create an account, or pay a subscription. By the time you're done, you've lost the urge to play.
 >
 > **Playmates says no.** Open a URL. Share a 5-letter code. You're in a live game with your friend in **under 10 seconds.**
-
+ 
 <br/>
-
+ 
 <div align="center">
-
+ 
 ```
 ┌─────────────────────────────────────────────────────────┐
 │                                                         │
@@ -59,101 +59,101 @@
 │                                                         │
 └─────────────────────────────────────────────────────────┘
 ```
-
+ 
 </div>
-
+ 
 <br/>
-
+ 
 ---
-
+ 
 <br/>
-
+ 
 ## 🕹️ Two Modes. One Mission.
-
+ 
 <br/>
-
+ 
 <table>
 <tr>
 <td width="50%" align="center">
-
+ 
 ### 💻 Mode 1
 ## Two Devices
-
+ 
 <img src="https://img.shields.io/badge/Play_from-Anywhere_in_the_World-a78bfa?style=for-the-badge"/>
-
+ 
 Each player opens Playmates on **their own device** — anywhere in the world. One creates a room, shares a 5-letter code, the other joins. Game starts the instant both connect.
-
+ 
 **No lobby. No ready button. No countdown.**
-
+ 
 `⌨️ Keyboard Controls`
-
+ 
 </td>
 <td width="50%" align="center">
-
+ 
 ### 📱 Mode 2
 ## Split Screen
-
+ 
 <img src="https://img.shields.io/badge/Phones_become-Game_Controllers-f472b6?style=for-the-badge"/>
-
+ 
 One laptop. Screen splits in half. Each half shows a **QR code**. Players scan it — their phone instantly becomes a wireless game controller. No app. No pairing. No Bluetooth.
-
+ 
 **It feels like magic. It's just WebSockets.**
-
+ 
 `📳 Haptic Feedback Included`
-
+ 
 </td>
 </tr>
 </table>
-
+ 
 <br/>
-
+ 
 ---
-
+ 
 <br/>
-
+ 
 ## 🎮 The Games
-
+ 
 <br/>
-
+ 
 <table>
 <tr>
 <td width="50%">
-
+ 
 <div align="center">
-
+ 
 ### 🏓 PONG
 ![](https://img.shields.io/badge/Renderer-HTML5_Canvas-orange?style=flat-square)
 ![](https://img.shields.io/badge/Win-7_Points-green?style=flat-square)
-
+ 
 </div>
-
+ 
 The classic — but deeply satisfying. Hit the ball at the **edge of your paddle** to send it at a sharp angle your opponent can't reach. The ball **speeds up every rally.** What starts casual ends tense.
-
+ 
 ```
 ● ──────────────────► ██
                         miss
 ██ ◄── ●
         POINT!
 ```
-
+ 
 - 🎯 Angle-based paddle deflection
 - ⚡ Ball accelerates every hit
 - 🏆 First to 7 points wins
 - 🎮 Works in both modes
-
+ 
 </td>
 <td width="50%">
-
+ 
 <div align="center">
-
+ 
 ### 🏎️ CAR RACE
 ![](https://img.shields.io/badge/Renderer-Three.js_WebGL_3D-blueviolet?style=flat-square)
 ![](https://img.shields.io/badge/Win-3_Laps-green?style=flat-square)
-
+ 
 </div>
-
+ 
 **Full 3D graphics.** Real circuit. Real physics. The camera chases you from behind, pulling back as you hit top speed. Corner wrong and you **drift** into the barrier. Your phone controls the car.
-
+ 
 ```
      🌅 Sunset Circuit
   ╭──────────────────────╮
@@ -161,60 +161,60 @@ The classic — but deeply satisfying. Hit the ball at the **edge of your paddle
   │   Lap 2/3  Lap 1/3   │
   ╰──────────────────────╯
 ```
-
+ 
 - 🏁 3 unique tracks
 - 🚗 3 cars with different stats
 - 💨 Drift physics + exhaust particles
 - 📱 Phone becomes steering wheel
-
+ 
 </td>
 </tr>
 </table>
-
+ 
 <br/>
-
+ 
 ---
-
+ 
 <br/>
-
+ 
 ## 🚀 Get Running in 2 Minutes
-
+ 
 <br/>
-
+ 
 ```bash
 # 1. Clone
 git clone https://github.com/anuragjain-afk/playmates.git
 cd playmates
-
+ 
 # 2. Server
 cd server && npm install && npm run dev
 # ✅ Running on http://localhost:3001
-
+ 
 # 3. Client (new terminal)
 cd client && npm install && npm run dev
 # ✅ Running on http://localhost:5173
 ```
-
+ 
 **Open `http://localhost:5173` — you're ready to play.** 🎉
-
+ 
 <br/>
-
+ 
 ---
-
+ 
 <br/>
-
+ 
 ## 📱 The Phone Controller
-
+ 
 <div align="center">
-
+ 
 *This is the feature that surprises everyone.*
-
+ 
 </div>
-
+ 
 <br/>
-
+ 
 Scan a QR code → phone opens a web page → that page **is** the controller. Tap to accelerate, brake, steer. The phone **vibrates** on every input — it feels like a physical button.
-
+ 
 ```
 ┌──────────────────────────────────┐
 │            PLAYER 1              │
@@ -229,21 +229,21 @@ Scan a QR code → phone opens a web page → that page **is** the controller. T
 └──────────────────────────────────┘
          📳 vibrates on tap
 ```
-
+ 
 No app store. No Bluetooth. No pairing. Works in Safari and Chrome. **Just a URL.**
-
+ 
 <br/>
-
+ 
 ---
-
+ 
 <br/>
-
+ 
 ## 🏗️ How It All Works
-
+ 
 <br/>
-
+ 
 <div align="center">
-
+ 
 ```
               ┌─────────────────────┐
               │   Socket.io Server  │
@@ -265,32 +265,32 @@ No app store. No Bluetooth. No pairing. Works in Safari and Chrome. **Just a URL
     │ @ 60fps    │       │      │            │
     └────────────┘       │      └────────────┘
 ```
-
+ 
 </div>
-
+ 
 <br/>
-
+ 
 **Just 4 socket events power the entire platform:**
-
+ 
 | Event | What it does |
 |:------|:-------------|
 | `create-room` | Host creates a session, gets a 5-letter ID back |
 | `join-room` | Guest joins by entering the ID |
 | `player-input` | Keypresses / taps sent to host at 60fps |
 | `game-state` | Host broadcasts game state to all players at 60fps |
-
+ 
 <br/>
-
+ 
 ---
-
+ 
 <br/>
-
+ 
 ## 🛠️ Tech Stack
-
+ 
 <br/>
-
+ 
 <div align="center">
-
+ 
 | | Technology | Why |
 |:---:|:---|:---|
 | 🎨 | **React 18 + Vite** | Fast dev, instant HMR, clean component model |
@@ -299,19 +299,19 @@ No app store. No Bluetooth. No pairing. Works in Safari and Chrome. **Just a URL
 | 🎮 | **HTML5 Canvas** | 2D rendering for Pong |
 | 🏎️ | **Three.js WebGL** | Full 3D scene for Car Race |
 | 📷 | **qrcode.react** | Dynamic QR codes with room IDs embedded |
-
+ 
 </div>
-
+ 
 <br/>
-
+ 
 ---
-
+ 
 <br/>
-
+ 
 ## 🗺️ Roadmap
-
+ 
 <br/>
-
+ 
 ```
 NOW                    SOON                   FUTURE
  │                      │                      │
@@ -322,42 +322,43 @@ NOW                    SOON                   FUTURE
  ✅ 3 cars              🔲 Auto-matchmaking    🔲 Voice chat
  🔲 Deploy online       🔲 Nicknames           🔲 Mobile app
 ```
-
+ 
 <br/>
-
+ 
 ---
-
+ 
 <br/>
-
+ 
 ## 🤝 Contributing
-
+ 
 Good ideas and pull requests are always welcome.
-
+ 
 ```bash
 git fork https://github.com/anuragjain-afk/playmates
 git checkout -b feature/your-idea
 git commit -m "feat: your cool thing"
 git push && open a PR
 ```
-
+ 
 Want to add a game? It takes **3 functions**. See the [Wiki →](https://github.com/anuragjain-afk/playmates/wiki/Adding-a-Game)
-
+ 
 <br/>
-
+ 
 ---
-
+ 
 <br/>
-
+ 
 <div align="center">
-
+ 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=140&section=footer&text=Built%20in%20one%20live%20session&fontSize=28&fontColor=ffffff&fontAlignY=55&animation=fadeIn" width="100%"/>
-
+ 
 **React · Socket.io · Node.js · Three.js · Vite**
-
+ 
 <br/>
-
+ 
 *If Playmates made you smile — drop a ⭐ It genuinely helps.*
-
+ 
 [![Star](https://img.shields.io/github/stars/anuragjain-afk/playmates?style=for-the-badge&logo=github&color=a78bfa)](https://github.com/anuragjain-afk/playmates)
-
+ 
 </div>
+ 
