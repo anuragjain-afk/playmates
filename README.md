@@ -1,184 +1,114 @@
 <div align="center">
 
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=200&section=header&text=Playmates&fontSize=80&fontColor=ffffff&fontAlignY=38&desc=Real-time%20multiplayer%20browser%20games&descAlignY=58&descSize=20&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=220&section=header&text=PLAYMATES&fontSize=80&fontColor=ffffff&fontAlignY=35&desc=Real-time%20Multiplayer%20Games%20in%20Your%20Browser&descAlignY=60&descSize=22&animation=fadeIn" width="100%"/>
 
 <br/>
 
-[![MIT License](https://img.shields.io/badge/License-MIT-a78bfa?style=for-the-badge&logoColor=white)](#)
-[![Made with React](https://img.shields.io/badge/React-18-61dafb?style=for-the-badge&logo=react&logoColor=black)](#)
-[![Powered by Socket.io](https://img.shields.io/badge/Socket.io-Live-white?style=for-the-badge&logo=socket.io&logoColor=black)](#)
-[![Three.js](https://img.shields.io/badge/Three.js-3D-black?style=for-the-badge&logo=three.js)](#)
+### ⚡ Play instantly. No installs. No accounts. Just fun.
 
 <br/>
 
-### 🎮 Open a link. Share a code. Play instantly.
-### No downloads. No accounts. No friction.
+[![MIT License](https://img.shields.io/badge/License-MIT-a78bfa?style=for-the-badge)](#)
+[![React](https://img.shields.io/badge/React-18-61dafb?style=for-the-badge&logo=react&logoColor=black)](#)
+[![Socket.io](https://img.shields.io/badge/Real--time-Socket.io-black?style=for-the-badge&logo=socket.io)](#)
+[![Three.js](https://img.shields.io/badge/3D-Three.js-000?style=for-the-badge&logo=three.js)](#)
 
 <br/>
+
+## 🎮 Open → Share → Play (under 10 seconds)
 
 </div>
 
 ---
 
-<br/>
+## 💡 Why Playmates?
 
-## ✨ The Idea
+Most multiplayer games kill the vibe before it even starts.
 
-> Most multiplayer games make you jump through hoops before you even start — download this, create an account, pay for a subscription. By then, the urge to play is gone.
->
-> **Playmates skips all of that.**
+- Install this 😴  
+- Sign up there 😩  
+- Verify email 😒  
 
-You open a URL. Your friend opens a URL. You share a 5-letter code. You're playing a live real-time game together in **under 10 seconds.**
+By the time you're done — **you don’t even feel like playing anymore.**
 
-No install. No signup. No waiting.
+### ✨ Playmates fixes that.
 
-<br/>
+> Open a link → Share a code → You're in the game.
+
+⚡ No downloads  
+⚡ No accounts  
+⚡ No waiting  
+
+Just **pure instant multiplayer.**
 
 ---
 
-<br/>
-
-## 🕹️ Two Ways to Play
-
-<br/>
+## 🕹️ How You Play
 
 <div align="center">
 
-|  | 💻 Mode 1 — Two Devices | 📱 Mode 2 — Split Screen |
-|:---:|:---|:---|
-| **What it is** | Each player on their own laptop | One screen split in half, phones as controllers |
-| **How it starts** | Share a 5-letter Room ID | Scan a QR code with your phone |
-| **Where to play** | Anywhere in the world | Same room, side by side |
-| **Controller** | Keyboard | Your phone — no app needed |
-| **Feels like** | Classic online multiplayer | An arcade machine you built yourself |
+| 💻 Online Mode | 📱 Party Mode |
+|---------------|--------------|
+| Play from different devices | Play on the same screen |
+| Share 5-letter Room ID | Scan QR code |
+| Keyboard controls | Phone = Controller |
+| Works globally 🌍 | Arcade vibes 🎯 |
 
 </div>
 
-<br/>
+---
+
+## 🎯 Games That Get INTENSE
+
+### 🏓 Pong (But Brutal)
+
+- Ball speeds up every hit ⚡  
+- Angle changes based on impact 🎯  
+- First to **7 points wins**
+
+> Starts casual… ends in war.
 
 ---
 
-<br/>
+### 🏎️ 3D Car Racing
 
-## 🎮 The Games
+- Real-time multiplayer racing 🏁  
+- Built with **Three.js (WebGL)**  
+- Smooth physics + real tracks  
 
-<br/>
+🎮 Keyboard OR  
+📱 Phone = steering wheel  
 
-### 🏓 Pong
-
-The original. But better.
-
-The ball speeds up every time it gets hit. The angle changes based on where it strikes your paddle. What starts as a casual warmup turns into a sweaty, tense rally where one mistake ends everything. First to **7 points** wins.
-
-> *"I'll just play one round." — No one, ever.*
-
-<br/>
-
-### 🏎️ Car Race
-
-Full **3D graphics** in a browser tab. No plugins. No downloads.
-
-Race on a real circuit track with barriers and trees. The physics actually feel like driving — you build up speed, brake before corners, and fight for position. Use your keyboard, or in Mode 2, **your phone becomes a steering wheel.** First to complete **3 laps** wins.
-
-> *Built with Three.js WebGL — the same technology behind professional 3D web apps.*
-
-<br/>
+> Yes… in your browser. No download. 🤯
 
 ---
 
-<br/>
+## 📱 Your Phone = Game Controller
 
-## 📱 Phone as a Controller
+This is where things feel like magic.
 
-This is the feature that surprises people most.
+- Scan QR code  
+- Phone becomes controller instantly  
+- No app. No pairing. No setup  
 
-In Mode 2, your phone **literally becomes a game controller** — no app store, no download, no Bluetooth pairing. Just scan a QR code and your phone's browser opens a controller page. Tap to accelerate, brake, and steer. There's even haptic feedback — your phone vibrates on every input.
+💥 Tap to accelerate  
+💥 Tilt/controls to steer  
+💥 Vibration feedback  
 
-It feels like magic. It's just WebSockets.
-
-<br/>
-
----
-
-<br/>
-
-## ⚡ Quick Start
-
-**1.** Clone the repo and install dependencies for both `server` and `client` folders
-
-**2.** Run the server (`npm run dev` inside `/server`)
-
-**3.** Run the client (`npm run dev` inside `/client`)
-
-**4.** Open `http://localhost:5173` and play 🎉
-
-> Full setup guide in the [Wiki](../../wiki) · Takes about 2 minutes from zero to playing
-
-<br/>
+> It feels like a console. It's just the browser.
 
 ---
 
-<br/>
+## ⚡ Get Started in 2 Minutes
 
-## 🧱 Built With
+```bash
+# 1. Clone repo
+git clone <repo-link>
 
-<div align="center">
+# 2. Install dependencies
+cd server && npm install
+cd ../client && npm install
 
-| Layer | Technology |
-|:---:|:---:|
-| 🎨 Frontend | React 18 + Vite |
-| ⚡ Real-time | Socket.io |
-| 🖥️ Backend | Node.js + Express |
-| 🎮 2D Games | HTML5 Canvas |
-| 🏎️ 3D Games | Three.js WebGL |
-| 📷 QR Codes | qrcode.react |
-
-</div>
-
-<br/>
-
----
-
-<br/>
-
-## 🗺️ What's Coming
-
-- 🌐 Deploy online so Mode 2 works from anywhere — no same-WiFi requirement
-- 🐍 Snake game
-- 🧱 Breakout game
-- 🏆 Nickname-based leaderboard
-- 💬 Lobby chat before matches
-- 🤖 Auto-matchmaking — no Room ID needed
-- 🎨 Custom car colors & paddle skins
-- 👁️ Spectator mode
-- 🏟️ Tournament bracket system
-
-<br/>
-
----
-
-<br/>
-
-## 🙌 Contributing
-
-Found a bug? Have a game idea? Pull requests are very welcome.
-
-Fork the repo → make your changes → open a PR. That's it.
-
-<br/>
-
----
-
-<br/>
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=120&section=footer&animation=fadeIn" width="100%"/>
-
-**Built in a single live coding session · React · Socket.io · Node.js · Three.js**
-
-*If this made you smile, drop a ⭐ — it means a lot!*
-
-</div>
+# 3. Run both
+cd server && npm run dev
+cd ../client && npm run dev
